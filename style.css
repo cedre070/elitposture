@@ -7,8 +7,10 @@
 
 
 #navigation{
+  margin-left: 0px;
+  padding-top: 15px;
   position:fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   -webkit-transition: all 500ms ease-in-out;
 -moz-transition: all 500ms ease-in-out;
@@ -26,9 +28,9 @@ transition: all 500ms ease-in-out;
 
 
 #navigation li{
-
 display:inline-block;
 }
+
 #navigation li a{
 font-family: 'Comfortaa', cursive;
 font-size: 2rem;
@@ -62,19 +64,59 @@ background:none;
 }
 
 .logo{
-  text-align: center;
-    padding-top: 15px;
+  display: flex;
+  justify-content: center;
+
+}
+.navig{
+  padding: 21px 50px 0 0;
+
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
 }
 
-.navig{
-  text-align: center;
-    padding-top: 43px;
-}
 .imgCarous{
   width:100%;
 }
 .presentation{
-  position:absolute;
+  position:relative;
   width:100%;
   top:0
+}
+.titre{
+display: flex;
+flex-direction: column;
+position:absolute;
+text-align: center;
+/*top: 319px;*/
+z-index: 1;
+width: 64%;
+margin:0 auto;
+/*left: 238px;*/
+left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+}
+.titre h1{
+  color:white;
+  font-family: 'Comfortaa', cursive;
+  font-size:7rem;
+  text-transform: uppercase;
+  text-shadow:5px 5px 5px #000000;
+}
+.titre h2{
+  color:#CD1740;
+  font-family: 'Comfortaa', cursive;
+  font-size:5rem;
+  text-transform: capitalize;
+  /*text-shadow:5px 5px 5px #000000;*/
+}
+.titre p{
+  color:white;
+  font-size: 3rem;
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  text-shadow:5px 5px 5px #000000;
 }
