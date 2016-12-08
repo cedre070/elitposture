@@ -114,6 +114,8 @@ left: 50%;
   font-size:5rem;
   text-transform: capitalize;
   /*text-shadow:5px 5px 5px #000000;*/
+  -webkit-animation-delay: 2s;
+    animation-delay: 0.5s;
 }
 .titre p{
   color:white;
@@ -133,6 +135,7 @@ h2{
   text-transform: uppercase;
   text-align: center;
 }
+
 
 /*footer*/
 

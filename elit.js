@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+
+
   $('#logo').hover(function(){
     $(this).addClass('animated pulse');
   },
