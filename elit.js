@@ -3,10 +3,17 @@ $(document).ready(function(){
 
 
   $('#logo').hover(function(){
-    $(this).addClass('animated pulse');
+    $(this).addClass('animated infinite pulse');
   },
   function(){
   $( this ).removeClass('animated pulse');
+  });
+
+  $('li').hover(function(){
+    $(this).addClass('animated pulse');
+  },
+  function(){
+  $(this).removeClass('animated pulse');
   });
 
 
